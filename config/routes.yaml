@@ -1,0 +1,13 @@
+Accueil:
+    path: /
+    controller: App\Controller\AccueilController::index
+index:
+    path: /
+    controller: App\Controller\AnnoncesController::index
+apropos:
+    path: /apropos
+    controller: App\Controller\AccueilController::apropos
+contact:
+    path: /contact
+    controller: App\Controller\AccueilController::contact
+
